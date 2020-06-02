@@ -43,7 +43,7 @@
 
 % Author’s notes
 % Use with \footnotemark
-\newcommand{\authorsnotetext}[1]{\footnotetext{Author’s note: #1}}
+\newcommand{\authorsnotetext}[1]{\footnotetext{#1}}
 
 % Letters
 \newcommand{\letterAddress}[1]{\pagebreak[1]\noindent{}#1\nopagebreak[4]\par}
@@ -71,8 +71,8 @@
 }
 
 \newcommand{\partchapter}[3][\relax]{%
-	\chapter[\texorpdfstring{#2, \abbrev{part #3}}{#2, part #3}]%
-		[#2 #3]{#2, Part~#3#1}}
+	\chapter[\texorpdfstring{#2, \abbrev{Teil #3}}{#2, Teil #3}]%
+		[#2 #3]{#2, Teil~#3#1}}
 
 % Hanging paras for play scripts (used in Omake IV)
 \newenvironment{playdialog}{\begin{hangparas}{2em}{1}}{\end{hangparas}}

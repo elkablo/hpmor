@@ -4,10 +4,8 @@ use Config;
 use File::Spec::Functions;
 
 @default_files = (
-  'hpmor',
-  'hpmor-1', 'hpmor-2', 'hpmor-3', 'hpmor-4', 'hpmor-5', 'hpmor-6',
-  'hpmor-dust-jacket-1', 'hpmor-dust-jacket-2', 'hpmor-dust-jacket-3',
-  'hpmor-dust-jacket-4', 'hpmor-dust-jacket-5', 'hpmor-dust-jacket-6',
+  'hpmor-1',
+  'hpmor-dust-jacket-1',
  );
 
 # Install git hooks for gitinfo2 if not already installed
